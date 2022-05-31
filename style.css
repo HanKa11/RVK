@@ -167,9 +167,6 @@ nav {
     .nav-container input[type="checkbox"]:checked ~ .logo{
       z-index: 7;
     }
-<<<<<<< HEAD
-  } 
-=======
 
     /*Main Page*/
     .intro{
@@ -207,7 +204,7 @@ nav {
     /*Footer*/
   }
 
->>>>>>> 6b7ee6f4ce825ffe1f2679bcf99213ccba6de668
+
   @media screen and (min-width: 900px){
 
   } 
