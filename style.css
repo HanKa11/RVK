@@ -32,10 +32,9 @@ nav {
   
 
   @media screen and (max-width: 899px){
-    /*Navigation*/
     .container {
-      max-width: 1050px;
-      width: 90%;
+      max-width: 899px;
+      width: 100%;
       margin: auto;
     }
     .nav-container {
@@ -121,23 +120,34 @@ nav {
     }
     nav .menu-items {
       padding-top: 120px;
+      padding-left: 20%;
       background-color:var(--white);
-      height: 100vh;
+      height: 40vh;
       width: 100%;
       transform: translate(-150%);
       display: flex;
       flex-direction: column;
-      margin-left: -40px;
-      padding-left: 50px;
       transition: transform 0.5s ease-in-out;
-      text-align: center;
     }
-      
+    
+    .icons{
+      display: flex;
+      flex-direction: column;
+    }
     nav .menu-items li {
       margin-bottom: 1.2rem;
       font-size: 1.5rem;
       font-weight: 500;
+      text-align: left;
     }
+
+    /* doesn't work*/
+    nav .menu-items li .icons {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+
     .nav-container input[type="checkbox"]:checked ~ .menu-items {
       transform: translateX(0);
     }
@@ -157,43 +167,7 @@ nav {
     .nav-container input[type="checkbox"]:checked ~ .logo{
       z-index: 7;
     }
-    /*Main Page*/
-
-
-    /*Team Overview*/
-
-    /*Kontingentrates*/
-
-    /*Activities*/
-
-    /*Sponsors*/
-
-
-    /*About us*/
-
-    /*Contact*/
-
-    /*Footer*/
   } 
   @media screen and (min-width: 900px){
-    /*Navigation*/
-
-    /*Main Page*/
-
-      
-    /*Team Overview*/
-
-    /*Kontingentrates*/
-
-    /*Activities*/
-
-    /*Sponsors*/
-
-
-    /*About us*/
-
-    /*Contact*/
-
-    /*Footer*/
 
   } 
