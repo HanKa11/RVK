@@ -1,3 +1,11 @@
+:root{
+  --darkorange: #E26C09;
+  --lightorange: #FF9135;
+  --black: #000000;
+  --white: #FFFFFF;
+  --lightgrey: #F7F7F7;
+  --darkgrey: #EAEAEA;
+}
 *{
     margin: 0;
     padding: 0;
@@ -5,7 +13,14 @@
   }
   
   body {
-    font-family: "Poppins", sans-serif;
+    font-family: cresta, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: var(--lightgrey);
+  }
+
+  header {
+    background-color: var(--white);
   }
   
   .container {
@@ -16,7 +31,7 @@
   
   nav {
     width: 100%;
-    box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
+    box-shadow: var(--black);
   }
   
   .nav-container {
@@ -36,7 +51,7 @@
   
   nav .nav-container a {
     text-decoration: none;
-    color: #0e2431;
+    color: var(--darkorange);
     font-weight: 500;
     font-size: 1.2rem;
     padding: 0.7rem;
@@ -82,7 +97,7 @@
     height: 4px;
     width: 100%;
     border-radius: 10px;
-    background: #0e2431;
+    background: var(--black);
   }
   
   .nav-container .hamburger-lines .line1 {
@@ -101,7 +116,7 @@
   
   nav .menu-items {
     padding-top: 120px;
-    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    box-shadow: inset 0 0 2000px var(--lightgrey);
     height: 100vh;
     width: 100%;
     transform: translate(-150%);
@@ -123,7 +138,6 @@
     position: absolute;
     top: 5px;
     left: 15px;
-    color: #0e2431;
   }
   .logo img {
     height: 6rem;
