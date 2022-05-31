@@ -32,6 +32,7 @@ nav {
   
 
   @media screen and (max-width: 899px){
+    /*Navigation*/
     .container {
       max-width: 1050px;
       width: 90%;
@@ -156,7 +157,43 @@ nav {
     .nav-container input[type="checkbox"]:checked ~ .logo{
       z-index: 7;
     }
+    /*Main Page*/
+
+
+    /*Team Overview*/
+
+    /*Kontingentrates*/
+
+    /*Activities*/
+
+    /*Sponsors*/
+
+
+    /*About us*/
+
+    /*Contact*/
+
+    /*Footer*/
   } 
   @media screen and (min-width: 900px){
+    /*Navigation*/
+
+    /*Main Page*/
+
+      
+    /*Team Overview*/
+
+    /*Kontingentrates*/
+
+    /*Activities*/
+
+    /*Sponsors*/
+
+
+    /*About us*/
+
+    /*Contact*/
+
+    /*Footer*/
 
   } 
