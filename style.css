@@ -157,8 +157,26 @@ nav {
     .nav-container input[type="checkbox"]:checked ~ .logo{
       z-index: 7;
     }
-    /*Main Page*/
 
+    /*Main Page*/
+    .intro{
+      box-sizing: border-box;
+      height: 95vh;
+    }
+    .introvid{
+      position: fixed;
+      display: block;
+      height: 95vh;
+      z-index: -1;
+      margin-left: 50vw; 
+      transform: translate(-50%); 
+    }
+    .intro h1{
+      color: #FFFFFF;
+      font-size: 36px;
+      text-align: center;
+      padding: 40vh 7vh 0 7vh;
+    }
 
     /*Team Overview*/
 
@@ -174,7 +192,8 @@ nav {
     /*Contact*/
 
     /*Footer*/
-  } 
+  }
+
   @media screen and (min-width: 900px){
     /*Navigation*/
 
