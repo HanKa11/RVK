@@ -28,6 +28,32 @@ nav {
 .logo {
   position: absolute;
 }
+/*Main Page*/
+.news{
+  display: flex;
+  flex-direction: column;
+  margin: 10vh 7vh;
+}
+.news h2{
+  padding-bottom: 3vh;
+}
+.nws{
+  display: flex;
+  flex-direction: row;
+  background-color: #EAEAEA;
+  margin-bottom: 2vh;
+  padding: 2vh;
+  align-items: center;
+  border-radius: 2vh;
+}
+.nws div{
+  margin-left: 5vh;
+  
+}
+.atrac{
+  display: flex;
+}
+
 
   
 
@@ -187,6 +213,14 @@ nav {
       text-align: center;
       padding: 40vh 7vh 0 7vh;
     }
+    .news img{
+      width: 5vh;
+      height: 5vh;
+    
+      
+    }
+  
+
 
     /*Team Overview*/
 
