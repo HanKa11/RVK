@@ -18,6 +18,7 @@ body {
   font-style: normal;
   background-color: var(--lightgrey);
 }
+/*header*/
 header {
   background-color: var(--white);
 }
@@ -29,6 +30,7 @@ nav {
   position: absolute;
 }
 /*Main Page*/
+/*news*/
 .news{
   display: flex;
   flex-direction: column;
@@ -50,14 +52,43 @@ nav {
   margin-left: 5vh;
   
 }
+/*boxes with highlight of a page*/
 .atrac{
   display: flex;
+  box-sizing: border-box;
 }
+.atrac div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #EAEAEA;
+  margin-bottom: 2vh;
+  border-radius: 2vh;
+}
+/*sponsors*/
+.sponsors{
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+.sponsors .sponlogo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+footer {
+  background-color: var(--darkorange);
+}
+
+
 
 
   
 
   @media screen and (max-width: 899px){
+    /*header*/
     .container {
       max-width: 899px;
       width: 100%;
@@ -69,10 +100,7 @@ nav {
       align-items: center;
       height: 62px;
     }
-    nav .menu-items {
-      display: flex;
-    }
-      
+   
     nav .nav-container li {
       list-style: none;
     }
@@ -148,7 +176,7 @@ nav {
       padding-top: 120px;
       padding-left: 20%;
       background-color:var(--white);
-      height: 40vh;
+      height: 100vh;
       width: 100%;
       transform: translate(-150%);
       display: flex;
@@ -195,15 +223,16 @@ nav {
     }
 
     /*Main Page*/
+    /*video*/
     .intro{
       box-sizing: border-box;
       height: 95vh;
     }
     .introvid{
-      position: fixed;
+      z-index: -1000;
+      position: sticky;
       display: block;
       height: 95vh;
-      z-index: -1;
       margin-left: 50vw; 
       transform: translate(-50%); 
     }
@@ -211,14 +240,53 @@ nav {
       color: #FFFFFF;
       font-size: 36px;
       text-align: center;
-      padding: 40vh 7vh 0 7vh;
+      position: absolute;
+      top: 50vh;
+      padding: 0 7vh 0vh 7vh;
     }
+    /*news*/
     .news img{
       width: 5vh;
       height: 5vh;
-    
+    }
+    /*boxes with page highlight*/
+    .atrac{
+      flex-direction: column;
+      padding: 0 7vh 7vh 7vh;
+    }
+    .atrac img{
+      height: 170px;
       
     }
+    .atrac .box{
+     padding: 4vh;
+    }
+    .atrac h3{
+      color: #E26C09;
+      font-size: 16px;
+      padding: 2vh 2vh 0;
+    }
+    .atrac p{
+      font-size: 14px;
+      padding: 0 2vh 2vh;
+    }
+    /*sponsors*/
+    .sponsors h2{
+      align-self: center;
+      padding-bottom: 4vh;
+    }
+    .sponsors .sponlogo{
+     padding: 0 7vh;
+    }
+    
+    .sponsors .sponlogo img{
+      width: 100px;
+     
+    }
+
+
+    
+
   
 
 
