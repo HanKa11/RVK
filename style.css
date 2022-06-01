@@ -59,7 +59,7 @@ footer {
 .news{
   display: flex;
   flex-direction: column;
-  margin: 10vh 7vh;
+  
 }
 .news h2{
   padding-bottom: 3vh;
@@ -123,8 +123,7 @@ h2 {
   margin: 10%;
 
 }
-  @media screen and (max-width: 899px){
-    /*header*/
+ 
   @media screen and (max-width: 899px){
     /*https://alvarotrigo.com/blog/hamburger-menu-css/ */
 
@@ -290,6 +289,9 @@ h2 {
       padding: 0 7vh 0vh 7vh;
     }
     /*news*/
+    .news{
+      margin: 10vh 7vh;
+    }
     .news img{
       width: 5vh;
       height: 5vh;
@@ -325,7 +327,7 @@ h2 {
     }
     
     .sponsors .sponlogo img{
-      width: 100px;
+      width: 30vw;
      
     }
 
@@ -354,7 +356,114 @@ h2 {
     /*Footer*/
   
 
-
+  }
   @media screen and (min-width: 900px){
 
-  } 
+
+    /*Main Page*/
+    main{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    /*video*/
+    .intro{
+      box-sizing: border-box;
+      height: 95vh;
+      order: 1;
+    }
+    .introvid{
+      z-index: -10;
+      position: sticky;
+      display: block;
+      width: 100vw;
+    }
+    .intro h1{
+      color: #FFFFFF;
+      font-size: 36px;
+      text-align: center;
+      position: absolute;
+      top: 50vh;
+      padding: 0 7vh 0vh 7vh;
+    }
+    /*news*/
+    .news{
+      float: left;
+      padding-left: 3vw;
+      margin: 10vh 2vh;
+      order: 3;
+    }
+    .news img{
+      width: 5vh;
+      height: 5vh;
+    }
+    /*boxes with page highlight*/
+  
+    .atrac{
+      flex-direction: row;
+      padding: 10vh 7vh 7vh 7vh;
+      width: 100%;
+      order: 2;
+    }
+    .atrac img{
+      width: 300px;
+      
+    }
+    .atrac .box{
+     padding: 2vw;
+     margin: 2vw;
+    }
+    .atrac h3{
+      color: #E26C09;
+      font-size: 16px;
+      padding: 2vh 2vh 0;
+    }
+    .atrac p{
+      font-size: 14px;
+      padding: 0 2vh 2vh;
+    }
+    /*sponsors*/
+    .sponsors{
+      float: right;
+      padding-right: 3vw;
+      align-items: center;
+      margin: 5vh 2vh;
+      order: 3;
+
+    }
+    .sponsors h2{
+      align-self: center;
+      padding-bottom: 4vh;
+    }
+    .sponsors .sponlogo{
+     padding: 0 2vh;
+     gap: 2vw;
+    }
+    
+    .sponsors .sponlogo img{
+      width: 15vw;
+     
+    }
+  }
+
+
+    
+
+  
+
+
+    /*Team Overview*/
+
+    /*Kontingentrates*/
+
+    /*Activities*/
+
+    /*Sponsors*/
+
+
+    /*About us*/
+
+    /*Contact*/
+
+    /*Footer*/
+  
