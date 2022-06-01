@@ -189,6 +189,61 @@ nav {
     }
 
     /*Team Overview*/
+  .colorstripe{
+    background: #E26C08;
+    padding-bottom: 4%;
+    padding-top: 4%;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: Cresta;
+      
+  }
+  .columns{
+    padding-top: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .col1{
+    border-radius: 20px;
+    flex: 0 1 48%;
+    background: #EAEAEA;
+    font-family: KaiseiTokumin-Regular;
+  }
+  .col2{
+    border-radius: 20px;
+    flex: 0 1 48%;
+    background: #EAEAEA;
+    font-family: KaiseiTokumin-Regular;
+  }
+  .col1 img{
+    align-self: center;
+    width: 90%;
+    padding-left: 10%;
+    padding-top: 5%;
+  }
+  .col1 h3{
+    font-size: 11px;
+    padding-left: 10%;
+  }
+  .col2 img{
+    align-self: center;
+    width: 90%;
+    padding-left: 10%;
+    padding-top: 5%;
+  }
+  .col2 h3{
+    font-size: 13px;
+    padding-left: 10%;
+  }
+  .text{
+    font-size: 12px;
+    padding: 2% 10% 5%;
+  }
 
     /*Kontingentrates*/
 
