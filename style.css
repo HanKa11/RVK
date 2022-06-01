@@ -123,6 +123,14 @@ h2 {
   margin: 10%;
 
 }
+/*Team Overview*/
+.tms{
+  display: flex;
+}
+.tms div{
+  background-color: #EAEAEA;
+  border-radius: 2vh;
+}
  
   @media screen and (max-width: 899px){
     /*https://alvarotrigo.com/blog/hamburger-menu-css/ */
@@ -338,7 +346,30 @@ h2 {
 
 
     /*Team Overview*/
+      .tms{
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+      .tms div{
+        width: 40%;
+        margin: 1vh;
+        align-items: center;
+      }
+      .tms img{
+        height: 100px;
+        padding: 2vh;
+        
+      }
+      .txtms{
+        padding-top: 10vh;
+      }
+      .txtms p{
+        padding: 1vh 10vw 5vh;
+      }
+      h1{
+        background-color: #E26C09;
 
+      }
     /*Kontingentrates*/
 
     /*Activities*/
@@ -453,7 +484,7 @@ h2 {
 
 
     /*Team Overview*/
-
+  
     /*Kontingentrates*/
 
     /*Activities*/
