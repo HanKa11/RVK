@@ -50,7 +50,9 @@ footer {
 #insta{
   margin-right: 25px;
 }
-
+footer {
+  background-color: var(--darkorange);
+}
 
 /*Main Page*/
 /*news*/
@@ -101,12 +103,17 @@ footer {
 
 }
 
-footer {
-  background-color: var(--darkorange);
+/*OM RVK*/
+h1{
+  text-align: center;
+  font-family: cresta, sans-serif;
+  font-weight: bold;
+  font-size: 200%;
+  color: var(--white);
+  padding: 2%;
 }
-.icons {
-  display: flex;
-
+.line {
+  background-color: var(--darkorange);
 }
   @media screen and (max-width: 899px){
     /*header*/
@@ -330,11 +337,14 @@ footer {
 
 
     /*About us*/
+    h1{
+      text-align: center;
+    }
 
     /*Contact*/
 
     /*Footer*/
-  }
+  
 
 
   @media screen and (min-width: 900px){
