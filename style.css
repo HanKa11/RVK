@@ -29,9 +29,28 @@ nav {
 .logo {
   position: absolute;
 }
+/*footer*/
 footer {
   background-color: var(--darkorange);
+  display:flex;
+  flex-direction: column 1fr 1fr 1fr;
+  justify-content: space-between;
+  padding: 4%;
 }
+.ft{
+  padding-top: 5%;
+}
+.footer-items{
+  padding-top: 5%;
+}
+.icons{
+  padding-top: 20%;
+  justify-content: space-between;
+}
+#insta{
+  margin-right: 25px;
+}
+
 
 /*Main Page*/
 /*news*/
@@ -82,22 +101,18 @@ footer {
 
 }
 
-<<<<<<< Updated upstream
 footer {
   background-color: var(--darkorange);
 }
+.icons {
+  display: flex;
 
-
-
-
-  
-
+}
   @media screen and (max-width: 899px){
     /*header*/
-=======
   @media screen and (max-width: 899px){
     /*https://alvarotrigo.com/blog/hamburger-menu-css/ */
->>>>>>> Stashed changes
+
     .container {
       max-width: 899px;
       width: 100%;
