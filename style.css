@@ -104,7 +104,7 @@ footer {
 }
 
 /*OM RVK*/
-h1{
+h1 {
   text-align: center;
   font-family: cresta, sans-serif;
   font-weight: bold;
@@ -112,8 +112,16 @@ h1{
   color: var(--white);
   padding: 2%;
 }
+h2 {
+  margin-left: 10%;
+  margin-right: 10%;
+}
 .line {
   background-color: var(--darkorange);
+}
+.text {
+  margin: 10%;
+
 }
   @media screen and (max-width: 899px){
     /*header*/
