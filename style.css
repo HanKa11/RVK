@@ -33,25 +33,27 @@ nav {
 footer {
   background-color: var(--darkorange);
   display:flex;
-  flex-direction: column 1fr 1fr 1fr;
+  flex-direction: column 1fr 1fr;
   justify-content: space-between;
-  padding: 4%;
+  margin: auto;
 }
 .ft{
-  padding-top: 5%;
+  padding-top: 1%;
+  font-size: 12px;
 }
 .footer-items{
   padding-top: 5%;
+  font-size: 12px;
+  padding: 5%;
+  margin-left: 5%;
 }
-.icons{
-  padding-top: 20%;
-  justify-content: space-between;
+.address{
+  padding: 5%;
+  margin-left: 10%;
 }
 #insta{
-  margin-right: 25px;
-}
-footer {
-  background-color: var(--darkorange);
+  padding-left: 50%;
+  margin-top: 10%;
 }
 
 /*Main Page*/
@@ -115,14 +117,14 @@ h1 {
 h2 {
   margin-left: 10%;
   margin-right: 10%;
-  font-size: 18px;
+  font-size: 28px;
 }
 .line {
   background-color: var(--darkorange);
 }
 .text {
   margin: 20px;
-  font-size: 14px;
+  font-size: 20px;
   font-family: cresta, sans-serif;
   font-weight: normal;
   border: var(--white);
