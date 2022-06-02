@@ -414,7 +414,29 @@ h2 {
 
   }
   @media screen and (min-width: 900px){
+    /* NAVIGATION */
+    .mobile{
+      display: none;
+    }
+    .menu-items{
+      font-family: cresta, sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding: 2%;
+      margin: auto;
+    }
+    .navPC .menu-items li{
+      list-style: none;
+      justify-content: space-between;
+      text-decoration: none;
 
+    }
+    .menu{
+      text-decoration: none;
+    }
 
     /*Main Page*/
     .mainmain{
