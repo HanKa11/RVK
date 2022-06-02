@@ -357,12 +357,13 @@ h2 {
     /*Team Overview*/
       .tms{
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-evenly;
+        margin: 0 7vw;
       }
       .tms div{
         width: 40%;
         margin: 1vh;
-        align-items: center;
+        
       }
       .tms img{
         height: 100px;
