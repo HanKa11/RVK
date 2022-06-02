@@ -142,6 +142,10 @@ h2 {
   width: 100%;
   z-index: -1;
 }
+#grey{
+ margin-left: 12vh;
+ margin-bottom: 7%;
+}
 
 /*Team Overview*/
 .tms{
