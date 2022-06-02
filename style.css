@@ -53,6 +53,16 @@ footer {
 footer {
   background-color: var(--darkorange);
 }
+.ft{
+  color: var(--white);
+}
+.footer-items{
+  list-style: none;
+}
+.footer-items a{
+  text-decoration: none;
+  color:var(--white)
+}
 
 /*Main Page*/
 /*news*/
