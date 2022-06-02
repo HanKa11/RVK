@@ -115,16 +115,24 @@ h1 {
 h2 {
   margin-left: 10%;
   margin-right: 10%;
+  font-size: 18px;
 }
 .line {
   background-color: var(--darkorange);
 }
 .text {
-  margin: 10%;
-
+  margin: 20px;
+  font-size: 14px;
+  font-family: cresta, sans-serif;
+  font-weight: normal;
+  border: var(--white);
+  border-radius: 20%;
 }
-  @media screen and (max-width: 899px){
-    /*header*/
+#teampic{
+  width: 100%;
+  z-index: -1;
+}
+
   @media screen and (max-width: 899px){
     /*https://alvarotrigo.com/blog/hamburger-menu-css/ */
 
