@@ -131,6 +131,7 @@ h2 {
   border: var(--white);
   border-radius: 20%;
 }
+
 #teampic{
   width: 100%;
   z-index: -1;
@@ -157,9 +158,9 @@ h2 {
   }
 
 .pics3 {
-  max-width: 55%;
-  
-}
+  max-width: 55%; }
+
+
 
   @media screen and (max-width: 899px){
     /*https://alvarotrigo.com/blog/hamburger-menu-css/ */
@@ -417,7 +418,25 @@ h2 {
     /*Activities*/
 
     /*Sponsors*/
+ 
+    .navPC {
+      display: none;
+    }
 
+    /*Sponsors*/
+.pics {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 3%;
+}
+.pics2 {
+  width: 40%;
+  }
+
+.pics3 {
+  max-width: 55%; 
+}
 
     /*About us*/
     h1{
@@ -537,10 +556,9 @@ h2 {
     
     .sponsors .sponlogo img{
       width: 15vw;
-     
     }
-  }
-
+ 
+   }
 
     
 
@@ -596,8 +614,12 @@ h2 {
     /*Activities*/
 
     /*Sponsors*/
+    
 
-
+      .pics3 {
+        display: flex;
+        flex-direction: column;
+      }
     /*About us*/
 
     /*Contact*/
