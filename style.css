@@ -260,16 +260,7 @@ h2 {
     .nav-container input[type="checkbox"]:checked ~ .logo{
       z-index: 7;
     }
-    .ft{
-      color: var(--white);
-    }
-    .footer-items{
-      list-style: none;
-    }
-    .footer-items a{
-      text-decoration: none;
-      color:var(--white)
-    }
+
 
     /*Main Page*/
     /*video*/
@@ -419,7 +410,7 @@ h2 {
 
 
   }
-  @media screen and (min-width: 900px){
+@media screen and (min-width: 900px){
     /* NAVIGATION */
     .mobile{
       display: none;
@@ -550,13 +541,6 @@ h2 {
       width: 15vw;
      
     }
-
-
-    
-
-  
-
-
     /*Team Overview*/
     .mainteam{
       display: flex;
