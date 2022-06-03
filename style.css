@@ -145,8 +145,10 @@ h2 {
 }
 
   @media screen and (max-width: 899px){
-    /*https://alvarotrigo.com/blog/hamburger-menu-css/ */
-
+    /* https://alvarotrigo.com/blog/hamburger-menu-css/ */
+    .navPC{
+      display:none;
+    }
     .container {
       max-width: 899px;
       width: 100%;
@@ -418,24 +420,44 @@ h2 {
     .mobile{
       display: none;
     }
+    .navPC{
+      display: flex;
+      flex-direction: row 1fr 1fr 1fr;
+      align-content: center;
+    }
     .menu-items{
-      font-family: cresta, sans-serif;
-      font-weight: 300;
-      font-style: normal;
       display: flex;
       flex-direction: row;
-      justify-content: center;
-      padding: 2%;
+      margin: auto;
+    }
+    li{
+      justify-content: space-around;
       margin: auto;
     }
     .navPC .menu-items li{
       list-style: none;
       justify-content: space-between;
       text-decoration: none;
-
+      align-content: center;
     }
     .menu{
       text-decoration: none;
+      color: var(--black);
+      font-family: cresta, sans-serif;
+      font-weight: 300;
+      font-style: medium;
+      font-size: 26px;
+    }
+    .logo{
+      margin-left: 3%;
+      margin-top: 1%;
+    
+    }
+    .PCicons{
+      margin-right: 5%;
+      margin-top:10%;
+      height: auto;
+      justify-content: space-between;
     }
 
     /*Main Page*/
