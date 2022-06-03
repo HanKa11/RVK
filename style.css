@@ -115,8 +115,8 @@ h1 {
   padding: 2%;
 }
 h2 {
-  margin-left: 37px;
-  margin-right: 37px;
+  margin-left: 10%;
+  margin-right: 10%;
   margin-top: 60px;
   font-size: 28px;
 }
@@ -124,7 +124,7 @@ h2 {
   background-color: var(--darkorange);
 }
 .text {
-  margin: 37px;
+  margin: 10%;
   font-size: 15px;
   font-family: cresta, sans-serif;
   font-weight: normal;
@@ -435,11 +435,11 @@ h2 {
   padding-top: 3%;
 }
 .pics2 {
-  width: 40%;
+  max-width: 50%;
   }
 
 .pics3 {
-  max-width: 55%; 
+  width: 50%; 
 }
 
     /*About us*/
@@ -562,7 +562,7 @@ h2 {
       width: 15vw;
     }
  
-   }
+  
 
     
 
@@ -617,6 +617,8 @@ h2 {
 
     /*Activities*/
 
+  
+
     /*Sponsors*/
     
 
@@ -630,3 +632,5 @@ h2 {
 
     /*Footer*/
   
+  
+  }
