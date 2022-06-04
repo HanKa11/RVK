@@ -26,7 +26,7 @@ nav {
   width: 100%;
   box-shadow: var(--black);
 }
-.logo {
+.clublogo {
   position: absolute;
 }
 /*footer*/
@@ -37,24 +37,7 @@ footer {
   justify-content: space-between;
   margin: auto;
 }
-.ft{
-  padding-top: 1%;
-  font-size: 12px;
-}
-.footer-items{
-  padding-top: 5%;
-  font-size: 12px;
-  padding: 5%;
-  margin-left: 5%;
-}
-.address{
-  padding: 5%;
-  margin-left: 10%;
-}
-#insta{
-  padding-left: 50%;
-  margin-top: 10%;
-}
+
 
 /*Main Page*/
 /*news*/
@@ -242,10 +225,10 @@ h2 {
       transform-origin: 0% 100%;
       transition: transform 0.4s ease-in-out;
     }
-    .logo img {
+    .clublogo img {
       height: 6rem;
     }
-    .logo {
+    .clublogo {
       top: 5px;
       left: 15px;
     }
@@ -294,16 +277,7 @@ h2 {
     .nav-container input[type="checkbox"]:checked ~ .logo{
       z-index: 7;
     }
-    .ft{
-      color: var(--white);
-    }
-    .footer-items{
-      list-style: none;
-    }
-    .footer-items a{
-      text-decoration: none;
-      color:var(--white)
-    }
+
 
     /*Main Page*/
     /*video*/
@@ -321,6 +295,7 @@ h2 {
     }
     .intro h1{
       color: #FFFFFF;
+      background-color: transparent;
       font-size: 36px;
       text-align: center;
       position: absolute;
@@ -376,44 +351,44 @@ h2 {
   
 
 
-    /*Team Overview*/
-      .tms{
-        justify-content: space-between;
-        flex-wrap: wrap;
-        margin:  5vh 17vw;
+      /*Team Overview*/
+    .tms{
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin:  5vh 17vw;
 
-      }
-      .tms div{
-        width: 48%;
-        margin-bottom: 2vh;
-        
-      }
-      .tms h3{
-        color: #E26C09;
-        text-align: center;
-      }
-      .tms img{
-        height: 70px;
-        padding: 2vh;
-        display: block;
-        align-self: center;
-        margin: auto;
-        
-      }
-      .tms p{
-        text-align: center;
-        
-      }
-      .txtms{
-        padding-top: 10vh;
-      }
-      .txtms p{
-        padding: 1vh 10vw 5vh;
+    }
+    .tms div{
+      width: 48%;
+      margin-bottom: 2vh;
+      
+    }
+    .tms h3{
+      color: #E26C09;
+      text-align: center;
+    }
+    .tms img{
+      height: 70px;
+      padding: 2vh;
+      display: block;
+      align-self: center;
+      margin: auto;
+      
+    }
+    .tms p{
+      text-align: center;
+      
+    }
+    .txtms{
+      padding-top: 10vh;
+    }
+    .txtms p{
+      padding: 1vh 10vw 5vh;
 
-      }
-      h1{
-        background-color: #E26C09;
-      }
+    }
+    h1{
+      background-color: #E26C09;
+    }
     /*Kontingentrates*/
 
     /*Activities*/
@@ -429,33 +404,51 @@ h2 {
     /*Contact*/
 
     /*Footer*/
-  
+    .ft{
+      padding-top: 1%;
+      font-size: 12px;
+    }
+    .footer-items{
+      padding-top: 5%;
+      font-size: 12px;
+      padding: 5%;
+      margin-left: 5%;
+    }
+    .address{
+      padding: 5%;
+      margin-left: 10%;
+    }
+    .address .icons{
+      float: right;
+    }
+    .address .icons img{
+      width: 20px;
+    }
+
 
   }
-  @media screen and (min-width: 900px){
+@media screen and (min-width: 900px){
     /* NAVIGATION */
     .mobile{
       display: none;
     }
     .navPC{
       display: flex;
-      flex-direction: row 1fr 1fr 1fr;
+      flex-direction: row;
       align-content: center;
+      height: 70px;
+      justify-content: space-between;
     }
     .menu-items{
       display: flex;
       flex-direction: row;
-      margin: auto;
-    }
-    li{
-      justify-content: space-around;
-      margin: auto;
+      margin: auto 0;
+      padding-left: 16vw;
     }
     .navPC .menu-items li{
       list-style: none;
-      justify-content: space-between;
       text-decoration: none;
-      align-content: center;
+     
     }
     .menu{
       text-decoration: none;
@@ -463,18 +456,21 @@ h2 {
       font-family: cresta, sans-serif;
       font-weight: 300;
       font-style: medium;
-      font-size: 26px;
+      font-size: 18px;
+      padding-left: 2vw;
     }
-    .logo{
-      margin-left: 3%;
-      margin-top: 1%;
+    .clublogo{
+      margin: 2vw 0 0 4vw;
+      width: 100px;
+    }
     
-    }
     .PCicons{
-      margin-right: 5%;
-      margin-top:10%;
-      height: auto;
-      justify-content: space-between;
+      margin: auto 0;
+      padding-right: 2vw;
+    }
+    .PCicons img{
+      height: 20px;
+
     }
 
     /*Main Page*/
@@ -497,6 +493,7 @@ h2 {
     }
     .intro h1{
       color: #FFFFFF;
+      background-color: transparent;
       font-size: 56px;
       text-align: center;
       position: absolute;
@@ -561,14 +558,6 @@ h2 {
       width: 15vw;
      
     }
-  }
-
-
-    
-
-  
-
-
     /*Team Overview*/
     .mainteam{
       display: flex;
@@ -625,4 +614,37 @@ h2 {
     /*Contact*/
 
     /*Footer*/
+    .footer-items{
+      margin: 3vh 0 8vh 25vw;
+    }
+    .footer-items li{
+      list-style: none;
+      text-decoration: none;
+      padding-bottom: 2vh;
+    }
+    .footer-items li a{
+      text-decoration: none;
+      color: #FFFFFF;
+    }
+    .address{
+      display: flex;
+      flex-direction: row;
+    }
+
+    .address p{
+      text-decoration: none;
+      color: #FFFFFF;
+      font-size: 16px;
+      font-style: medium;
+      margin: 3vh 10vw 8vh 0;
+    }
+    .address .icons{
+      margin: 3vh 20vw 8vh 0vw;
+    }
+    .address .icons img{
+      height: 20px;
+      padding-right: 1vw;
+    }
+    
+  }
   
