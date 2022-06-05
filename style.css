@@ -98,24 +98,32 @@ h1 {
   padding: 2%;
 }
 h2 {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 37px;
+  margin-right: 37px;
   font-size: 28px;
+  margin-top: 60px;
 }
 .line {
   background-color: var(--darkorange);
 }
 .text {
-  margin: 20px;
-  font-size: 20px;
+  margin: 37px;
+  font-size: 14px;
   font-family: cresta, sans-serif;
   font-weight: normal;
   border: var(--white);
   border-radius: 20%;
 }
+#grey{
+  margin-bottom: 8%;
+  margin-left: 22%;
+}
 #teampic{
   width: 100%;
   z-index: -1;
+}
+#game{
+  width: 100%;
 }
 
 /*Team Overview*/
@@ -126,6 +134,22 @@ h2 {
   background-color: #EAEAEA;
   border-radius: 2vh;
 }
+
+/*Sponsors*/
+.pics {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 3%;
+}
+.pics2 {
+  width: 40%;
+  }
+
+.pics3 {
+  max-width: 55%;
+}
+
 
   @media screen and (max-width: 899px){
     /* https://alvarotrigo.com/blog/hamburger-menu-css/ */
@@ -334,7 +358,7 @@ h2 {
     
     .sponsors .sponlogo img{
       width: 30vw;
-     
+
     }
 
 
@@ -385,6 +409,7 @@ h2 {
 
     /*Activities*/
 
+    
     /*Sponsors*/
 
 
