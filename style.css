@@ -18,6 +18,7 @@ body {
   font-style: normal;
   background-color: var(--lightgrey);
 }
+/*header*/
 header {
   background-color: var(--white);
 }
@@ -25,13 +26,136 @@ nav {
   width: 100%;
   box-shadow: var(--black);
 }
-.logo {
+.clublogo {
   position: absolute;
 }
+/*footer*/
+footer {
+  background-color: var(--darkorange);
+  display:flex;
+  flex-direction: column 1fr 1fr;
+  justify-content: space-between;
+  margin: auto;
+}
 
+
+/*Main Page*/
+/*news*/
+.news{
+  display: flex;
+  flex-direction: column;
   
+}
+.news h2{
+  padding-bottom: 3vh;
+}
+.nws{
+  display: flex;
+  flex-direction: row;
+  background-color: #EAEAEA;
+  margin-bottom: 2vh;
+  padding: 2vh;
+  align-items: center;
+  border-radius: 2vh;
+}
+.nws div{
+  margin-left: 5vh;
+  
+}
+/*boxes with highlight of a page*/
+.atrac{
+  display: flex;
+  box-sizing: border-box;
+}
+.atrac div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #EAEAEA;
+  margin-bottom: 2vh;
+  border-radius: 2vh;
+}
+/*sponsors*/
+.sponsors{
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+.sponsors .sponlogo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+/*OM RVK*/
+h1 {
+  text-align: center;
+  font-family: cresta, sans-serif;
+  font-weight: bold;
+  font-size: 200%;
+  color: var(--white);
+  padding: 2%;
+}
+h2 {
+  margin-left: 37px;
+  margin-right: 37px;
+  font-size: 28px;
+  margin-top: 60px;
+}
+.line {
+  background-color: var(--darkorange);
+}
+.text {
+  margin: 37px;
+  font-size: 14px;
+  font-family: cresta, sans-serif;
+  font-weight: normal;
+  border: var(--white);
+  border-radius: 20%;
+}
+#grey{
+  margin-bottom: 8%;
+  margin-left: 22%;
+}
+#teampic{
+  width: 100%;
+  z-index: -1;
+}
+#game{
+  width: 100%;
+}
+
+/*Team Overview*/
+.tms{
+  display: flex;
+}
+.tms div{
+  background-color: #EAEAEA;
+  border-radius: 2vh;
+}
+
+/*Sponsors*/
+.pics {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 3%;
+}
+.pics2 {
+  width: 40%;
+  }
+
+.pics3 {
+  max-width: 55%;
+}
+
 
   @media screen and (max-width: 899px){
+    /* https://alvarotrigo.com/blog/hamburger-menu-css/ */
+    .navPC{
+      display:none;
+    }
     .container {
       max-width: 899px;
       width: 100%;
@@ -43,10 +167,7 @@ nav {
       align-items: center;
       height: 62px;
     }
-    nav .menu-items {
-      display: flex;
-    }
-      
+   
     nav .nav-container li {
       list-style: none;
     }
@@ -111,10 +232,10 @@ nav {
       transform-origin: 0% 100%;
       transition: transform 0.4s ease-in-out;
     }
-    .logo img {
+    .clublogo img {
       height: 6rem;
     }
-    .logo {
+    .clublogo {
       top: 5px;
       left: 15px;
     }
@@ -122,7 +243,7 @@ nav {
       padding-top: 120px;
       padding-left: 20%;
       background-color:var(--white);
-      height: 40vh;
+      height: 100vh;
       width: 100%;
       transform: translate(-150%);
       display: flex;
@@ -130,10 +251,6 @@ nav {
       transition: transform 0.5s ease-in-out;
     }
     
-    .icons{
-      display: flex;
-      flex-direction: column;
-    }
     nav .menu-items li {
       margin-bottom: 1.2rem;
       font-size: 1.5rem;
@@ -167,27 +284,89 @@ nav {
     .nav-container input[type="checkbox"]:checked ~ .logo{
       z-index: 7;
     }
+    .ft{
+      color: var(--white);
+    }
+    .footer-items{
+      list-style: none;
+    }
+    .footer-items a{
+      text-decoration: none;
+      color:var(--white)
+    }
 
     /*Main Page*/
+    /*video*/
     .intro{
       box-sizing: border-box;
       height: 95vh;
     }
     .introvid{
-      position: fixed;
+      z-index: -1000;
+      position: sticky;
       display: block;
       height: 95vh;
-      z-index: -1;
       margin-left: 50vw; 
       transform: translate(-50%); 
     }
     .intro h1{
       color: #FFFFFF;
+      background-color: transparent;
       font-size: 36px;
       text-align: center;
-      padding: 40vh 7vh 0 7vh;
+      position: absolute;
+      top: 50vh;
+      padding: 0 7vh 0vh 7vh;
+    }
+    /*news*/
+    .news{
+      margin: 10vh 7vh;
+    }
+    .news img{
+      width: 5vh;
+      height: 5vh;
+    }
+    /*boxes with page highlight*/
+    .atrac{
+      flex-direction: column;
+      padding: 0 7vh 7vh 7vh;
+    }
+    .atrac img{
+      height: 170px;
+      
+    }
+    .atrac .box{
+     padding: 4vh;
+    }
+    .atrac h3{
+      color: #E26C09;
+      font-size: 16px;
+      padding: 2vh 2vh 0;
+    }
+    .atrac p{
+      font-size: 14px;
+      padding: 0 2vh 2vh;
+    }
+    /*sponsors*/
+    .sponsors h2{
+      align-self: center;
+      padding-bottom: 4vh;
+    }
+    .sponsors .sponlogo{
+     padding: 0 7vh;
+    }
+    
+    .sponsors .sponlogo img{
+      width: 30vw;
+
     }
 
+
+    
+
+  
+
+<<<<<<< HEAD
     /*Team Overview*/
   .colorstripe{
     background: #E26C08;
@@ -244,7 +423,268 @@ nav {
     font-size: 12px;
     padding: 2% 10% 5%;
   }
+=======
+>>>>>>> main
 
+      /*Team Overview*/
+    .tms{
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin:  5vh 17vw;
+
+    }
+    .tms div{
+      width: 48%;
+      margin-bottom: 2vh;
+      
+    }
+    .tms h3{
+      color: #E26C09;
+      text-align: center;
+    }
+    .tms img{
+      height: 70px;
+      padding: 2vh;
+      display: block;
+      align-self: center;
+      margin: auto;
+      
+    }
+    .tms p{
+      text-align: center;
+      
+    }
+    .txtms{
+      padding-top: 10vh;
+    }
+    .txtms p{
+      padding: 1vh 10vw 5vh;
+
+    }
+    h1{
+      background-color: #E26C09;
+    }
+    /*Kontingentrates*/
+
+    /*Activities*/
+
+    
+    /*Sponsors*/
+
+
+    /*About us*/
+    h1{
+      text-align: center;
+    }
+
+    /*Contact*/
+
+    /*Footer*/
+    .ft{
+      padding-top: 1%;
+      font-size: 12px;
+    }
+    .footer-items{
+      padding-top: 5%;
+      font-size: 12px;
+      padding: 5%;
+      margin-left: 5%;
+    }
+    .address{
+      padding: 5%;
+      margin-left: 10%;
+    }
+    .address .icons{
+      float: right;
+    }
+    .address .icons img{
+      width: 20px;
+    }
+
+
+  }
+  @media screen and (min-width: 900px){
+    /* NAVIGATION */
+    .mobile{
+      display: none;
+    }
+    .navPC{
+      display: flex;
+      flex-direction: row;
+      align-content: center;
+      height: 70px;
+      justify-content: space-between;
+    }
+    .menu-items{
+      display: flex;
+      flex-direction: row;
+      margin: auto 0;
+      padding-left: 16vw;
+    }
+    .navPC .menu-items li{
+      list-style: none;
+      text-decoration: none;
+     
+    }
+    .menu{
+      text-decoration: none;
+      color: var(--black);
+      font-family: cresta, sans-serif;
+      font-weight: 300;
+      font-style: medium;
+      font-size: 18px;
+      padding-left: 2vw;
+    }
+    .clublogo{
+      margin: 2vw 0 0 4vw;
+      width: 100px;
+    }
+    
+    .PCicons{
+      margin: auto 0;
+      padding-right: 2vw;
+    }
+    .PCicons img{
+      height: 20px;
+
+    }
+
+    /*Main Page*/
+    .mainmain{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    /*video*/
+    .intro{
+      box-sizing: border-box;
+      height: 95vh;
+      order: 1;
+    }
+    .introvid{
+      z-index: -10;
+      position: sticky;
+      display: block;
+      width: 100vw;
+    }
+    .intro h1{
+      color: #FFFFFF;
+      background-color: transparent;
+      font-size: 56px;
+      text-align: center;
+      position: absolute;
+      top: 60vh;
+      padding: 0 7vh 0vh 7vh;
+    }
+    /*news*/
+    .news{
+      float: left;
+      padding-left: 3vw;
+      margin: 10vh 2vh;
+      order: 3;
+    }
+    .news img{
+      width: 5vh;
+      height: 5vh;
+    }
+    /*boxes with page highlight*/
+  
+    .atrac{
+      flex-direction: row;
+      padding: 12vh 7vh 5vh 7vh;
+      width: 100%;
+      order: 2;
+    }
+    .atrac img{
+      width: 300px;
+      
+    }
+    .atrac .box{
+     padding: 2vw;
+     margin: 2vw;
+    }
+    .atrac h3{
+      color: #E26C09;
+      font-size: 16px;
+      padding: 2vh 2vh 0;
+    }
+    .atrac p{
+      font-size: 14px;
+      padding: 0 2vh 2vh;
+    }
+    /*sponsors*/
+    .sponsors{
+      float: right;
+      padding-right: 3vw;
+      align-items: center;
+      margin: 5vh 2vh;
+      order: 3;
+
+    }
+    .sponsors h2{
+      align-self: center;
+      padding-bottom: 4vh;
+    }
+    .sponsors .sponlogo{
+     padding: 0 2vh;
+     gap: 2vw;
+    }
+    
+    .sponsors .sponlogo img{
+      width: 15vw;
+     
+    }
+
+
+    
+
+  
+
+
+    /*Team Overview*/
+    .mainteam{
+      display: flex;
+      flex-direction: row;
+    }
+    .txtms{
+
+      padding-top: 20vh;
+    }
+   
+    .txtms p{
+      padding-top: 1vh;
+    }
+    .tms{
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin:  5vh 5vw;
+
+    }
+    .tms div{
+      width: 30%;
+      margin-bottom: 2vh;
+      
+    }
+    .tms h3{
+      color: #E26C09;
+      text-align: center;
+    }
+    .tms img{
+      height: 100px;
+      padding: 2vh;
+      display: block;
+      align-self: center;
+      margin: auto;
+      
+    }
+    .tms p{
+      text-align: center;
+      
+    }
+  
+    h1{
+      background-color: #E26C09;
+    }
     /*Kontingentrates*/
 
     /*Activities*/
@@ -257,9 +697,38 @@ nav {
     /*Contact*/
 
     /*Footer*/
+    .footer-items{
+      margin: 3vh 0 8vh 25vw;
+    }
+    .footer-items li{
+      list-style: none;
+      text-decoration: none;
+      padding-bottom: 2vh;
+    }
+    .footer-items li a{
+      text-decoration: none;
+      color: #FFFFFF;
+    }
+    .address{
+      display: flex;
+      flex-direction: row;
+    }
+
+    .address p{
+      text-decoration: none;
+      color: #FFFFFF;
+      font-size: 16px;
+      font-style: medium;
+      margin: 3vh 10vw 8vh 0;
+    }
+    .address .icons{
+      margin: 3vh 20vw 8vh 0vw;
+    }
+    .address .icons img{
+      height: 20px;
+      padding-right: 1vw;
+    }
+    
   }
-
-
-  @media screen and (min-width: 900px){
-
-  } 
+  
+  
