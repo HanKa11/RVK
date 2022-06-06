@@ -565,7 +565,7 @@ h2 {
   
 
   /*overall styling*/
-  h1 {
+  .h1 {
     text-align: center;
     font-family: cresta, sans-serif;
     font-weight: bold;
@@ -573,7 +573,7 @@ h2 {
     color: var(--white);
     padding: 2%;
   }
-  h2 {
+  .h2 {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 60px;
@@ -583,7 +583,10 @@ h2 {
     background-color: var(--darkorange);
   }
   .text {
-    margin: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    margin-top: 1%;
     font-size: 18px;
     font-family: cresta, sans-serif;
     font-weight: normal;
@@ -641,15 +644,14 @@ h2 {
 
     /*Activities*/
 
+ 
   
 
     /*Sponsors*/
     
 
-      .pics3 {
-        display: flex;
-        flex-direction: column;
-      }
+    
+    
     /*About us*/
 
     /*Contact*/

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://use.typekit.net/ygf0crx.css">
+
+</head>
+<body>
+    <h1>Vil du blive medlem?</h1>
+
+<p >Er du ny spiller og ønsker at deltage i Roskilde Volleyball Klubs aktiviteter, så indsend dine informationer til klubben her.</p>
+    <section class="all">
+        
+    <img src="rectangle.png" alt="Orange vertical rectangle" class="rectangle">
+
+        <section class="bodyform">
+        <form action="contactform.php" method="get" class="form">
+           <h3>Hold</h3>
+            <select name="Hold" class="hold">
+                <option value="Vælge hold">Vælge hold</option>
+                <option value="Dame 1">Dame 1</option>
+                <option value="Dame 2">Dame 2</option>
+                <option value="H-old">H-old</option>>
+                <option value="Herre 1">Herre 1</option>
+                <option value="Herre 2">Herre 2</option>
+                <option value="Kids level 1">Kids level 1</option>
+                <option value="Passive medlemmer">Passive medlemmer</option>
+                <option value="Ramasjang Familievolley">Ramasjang Familievolley</option>
+            </select> 
+            <br>
+            <h3>Fulde navn</h3>
+            <input type="text" name="Fulde navn" placeholder="Skriv dit fulde navn" class="gade">
+            <br>
+            <section class="address">
+            <h3>Gade</h3>
+            <h3>Postnummer</h3>
+            <h3>By</h3>
+            <input type="text" name="Gade" class="gade">
+            <input type="text" name="Postnummer" class="post">
+            <input type="text" name="By" class="by">
+            </section>
+            <section class="contform">
+            <h3>E-mail</h3>
+            <h3>Mobil</h3>
+            <input type="text" name="E-mail" value="@" class="hold">
+            <input type="text" name="Mobil" value="+45" class="by">
+            </section>
+            <section class="kommentar">
+            <h3>Kommentar</h3>
+            <h3></h3>
+            <textarea name="Kommentar" placeholder="Skriv en besked til os..." ></textarea>
+            <button type="submit" name="Insend">Insend</button>
+            </section>
+        </form>
+</section>
+
+<img src="rectangle.png" alt="Orange vertical rectangle" class="rectangle" id="right">
+</section>
+<p class="text2">Har du en Holdsport.dk profil, kan du også bruge denne. <a href="https://www.holdsport.dk/">Klik her.</a></p>
+        <script src="script.js"></script>
+</body>
+</html>
