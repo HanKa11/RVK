@@ -356,7 +356,9 @@ h2 {
       padding: 0 2vh 2vh;
     }
     /*sponsors*/
-    .sponsors h2{
+
+
+ .sponsors h2{
       align-self: center;
       padding-bottom: 4vh;
     }
@@ -429,8 +431,6 @@ h2 {
     .srectangle {
       display: none;
     }
-
-    /*Sponsors*/
 .pics {
   display: flex;
   flex-direction: row;
@@ -444,6 +444,7 @@ h2 {
 .pics3 {
   width: 50%; 
 }
+
 
 #pics3desk {
   display: none;
