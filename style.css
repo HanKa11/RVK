@@ -149,6 +149,134 @@ h2 {
 .pics3 {
   max-width: 55%;
 }
+/*Ramasjang*/
+h1 {
+  text-align: center;
+  font-family: cresta, sans-serif;
+  font-weight: bold;
+  font-size: 130%;
+  color: var(--white);
+  padding: 2%;
+}
+.h2r {
+  margin-left: 37px;
+  margin-right: 37px;
+  font-size: 28px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+.line {
+  background-color: var(--darkorange);
+}
+.textr1 {
+  margin: 25px;
+  font-size: 14px;
+  font-family: cresta, sans-serif;
+  font-weight: normal;
+  border: var(--white);
+  border-radius: 20%;
+}
+.textr2 {
+  margin: 25px;
+  font-size: 14px;
+  font-family: cresta, sans-serif;
+  font-weight: normal;
+  border: var(--white);
+  border-radius: 20%;
+}
+.linepic {
+  grid-template-columns: 3fr 3fr;
+}
+.kidvolley {
+  width:80%;
+  margin-bottom: 35px;
+}
+.oline {
+  width: 20px;
+  margin-right: 72px;
+}
+.textr3 {
+  margin: 25px;
+  font-size: 14px;
+  font-family: cresta, sans-serif;
+  font-weight: normal;
+  border: var(--white);
+  border-radius: 20%;
+}
+.textr4 {
+  margin: 25px;
+  font-size: 14px;
+  font-family: cresta, sans-serif;
+  font-weight: normal;
+  border: var(--white);
+  border-radius: 20%;
+}
+.kidsvolley2 {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.contactpic1 {
+  width: 80%;
+  margin-left: 20px;
+}
+.coaches1 {
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.contactpic2 {
+  width: 80%;
+  margin-left: 20px; 
+}
+.coaches2 {
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.icons1 {
+  margin-top: 20px;
+}
+.icons2 {
+  margin-top: 20px;
+}
+.phone1 {
+  width: 25px;
+  margin-right: 10px;
+}
+.phone2 {
+  width: 25px;
+  margin-right: 10px;
+}
+.mail1 {
+  width: 25px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.mail2 {
+  width: 25px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.coaches11 {
+  margin-top: 40px;
+}
+.coaches22 {
+  margin-top: 40px;
+}
+.box{
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+  background-color: #EAEAEA;
+  margin-bottom: 8vh;
+  margin-top: 4vh;
+  margin-right: 6vh;
+  margin-left: 6vh;
+  border-radius: 2vh;
+}
 
 
   @media screen and (max-width: 899px){
@@ -463,6 +591,156 @@ h2 {
     }
     h1{
       background-color: #E26C09;
+    }
+
+    /*Ramasjang*/
+    h1 {
+      text-align: center;
+      font-family: cresta, sans-serif;
+      font-weight: bold;
+      font-size: 130%;
+      color: var(--white);
+      padding: 2%;
+    }
+    .h2r {
+      margin-left: 37px;
+      margin-right: 37px;
+      font-size: 28px;
+      margin-top: 80px;
+      margin-bottom: 20px;
+    }
+    .line {
+      background-color: var(--darkorange);
+    }
+    .textr1 {
+      margin: 25px;
+      font-size: 14px;
+      font-family: cresta, sans-serif;
+      font-weight: normal;
+      border: var(--white);
+      border-radius: 20%;
+    }
+    .textr2 {
+      margin: 25px;
+      font-size: 14px;
+      font-family: cresta, sans-serif;
+      font-weight: normal;
+      border: var(--white);
+      border-radius: 20%;
+    }
+    .linepic {
+      grid-template-columns: 3fr 3fr;
+    }
+    .kidvolley {
+      width:80%;
+      margin-bottom: 35px;
+    }
+    .oline {
+      width: 20px;
+      margin-right: 72px;
+    }
+    .textr3 {
+      margin: 25px;
+      font-size: 14px;
+      font-family: cresta, sans-serif;
+      font-weight: normal;
+      border: var(--white);
+      border-radius: 20%;
+    }
+    .textr4 {
+      margin: 25px;
+      font-size: 14px;
+      font-family: cresta, sans-serif;
+      font-weight: normal;
+      border: var(--white);
+      border-radius: 20%;
+    }
+    .kidsvolley2 {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    .contactpic1 {
+      width: 80%;
+      margin-left: 20px;
+    }
+    .coaches1 {
+      display: grid;
+      grid-template-columns: 3fr 3fr;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    .contactpic2 {
+      width: 80%;
+      margin-left: 20px; 
+    }
+    .coaches2 {
+      display: grid;
+      grid-template-columns: 3fr 3fr;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    .icons1 {
+      margin-top: 20px;
+    }
+    .icons2 {
+      margin-top: 20px;
+    }
+    .phone1 {
+      width: 25px;
+      margin-right: 10px;
+    }
+    .phone2 {
+      width: 25px;
+      margin-right: 10px;
+    }
+    .mail1 {
+      width: 25px;
+      margin-right: 10px;
+      margin-top: 10px;
+    }
+    .mail2 {
+      width: 25px;
+      margin-right: 10px;
+      margin-top: 10px;
+    }
+    .coaches11 {
+      margin-top: 40px;
+    }
+    .coaches22 {
+      margin-top: 40px;
+    }
+    .box{
+      flex-direction: column;
+      padding: 1vh 1vh 1vh 1vh;
+      margin-left: 130px;
+      margin-right: 130px;
+    }
+    .box h3{
+      color: #E26C09;
+      font-size: 16px;
+      padding: 2vh 2vh 0;
+      text-align: center;
+    }
+    .box p{
+      margin-top: 30px;
+      font-size: 20px;
+      padding: 0 2vh 2vh;
+      text-align: center;
+    }
+    .trainingh {
+      margin-top: 80px;
+      text-align: center;
+    }
+    button {
+      border: 5px solid #000000;
+      border-radius: 35px;
+      padding: 8px 14px;
+      margin-top: 2rem;
+      margin-bottom: 8rem;
+      margin-left: 13rem;
+      font-weight: bold;
+      font-size: 1.2rem;
+      background-color: #FFFFFF;
     }
     /*Kontingentrates*/
 
