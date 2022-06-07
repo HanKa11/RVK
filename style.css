@@ -421,6 +421,10 @@ h2 {
       max-width: 100%;
     }
 
+    .actphdesktop {
+      display: none;
+    }
+
     /*Sponsors*/
  
     .navPC {
@@ -584,7 +588,7 @@ h2 {
   }
   .text {
     margin: 5%;
-    font-size: 18px;
+    font-size: 16px;
     font-family: cresta, sans-serif;
     font-weight: normal;
     border: var(--white);
@@ -641,7 +645,34 @@ h2 {
 
     /*Activities*/
 
-  
+  .activitiesgridup {
+    display: grid;
+    grid-template-columns: 20% 30% 30% 20%;
+ }
+
+  .actph {
+    display: none;
+  }
+
+  .actphdesktop {
+ max-width: 100%;
+  }
+  .apup{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .apdown {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .acttextl {
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+
+
 
     /*Sponsors*/
     
