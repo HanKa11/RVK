@@ -449,6 +449,10 @@ h2 {
   display: none;
 }
 
+.picslogo {
+  display: none;
+}
+
     /*About us*/
     h1{
       text-align: center;
@@ -668,10 +672,11 @@ h2 {
 
    .spons1 {
      display: grid;
-     grid-template-columns: 5% 45% 50%;
+     grid-template-columns: 5% 40% 10% 45%;
      justify-items: start;
     align-content: center;
     padding-top: 2%;
+    padding-bottom: 2%;
    }
    .pics {
      display: flex;
@@ -679,7 +684,12 @@ h2 {
     max-width: 100%;
 
    }
-    
+
+   #pics3desk {
+    height: 100%;
+    width: 100%;
+  }
+  
     .pics2 {
       display: none;
     }
@@ -690,11 +700,14 @@ h2 {
 
     .spons2 {
     display: grid;
-     grid-template-columns: 45% 50% 5%;
+     grid-template-columns: 45% 40%  10% 5%;
      justify-items: end;
     align-content: center;
     padding-bottom: 2%;
+    padding-top: 2%;
     }
+
+
     
     
     /*About us*/
