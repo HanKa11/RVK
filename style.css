@@ -426,6 +426,9 @@ h2 {
     .navPC {
       display: none;
     }
+    .srectangle {
+      display: none;
+    }
 
     /*Sponsors*/
 .pics {
@@ -442,6 +445,10 @@ h2 {
   width: 50%; 
 }
 
+#pics3desk {
+  display: none;
+}
+
     /*About us*/
     h1{
       text-align: center;
@@ -456,6 +463,8 @@ h2 {
   @media screen and (min-width: 900px){
     /* NAVIGATION */
     .mobile{
+
+
       display: none;
     }
     .menu-items{
@@ -634,7 +643,6 @@ h2 {
     }
     .tms p{
       text-align: center;
-      
     }
   
     h1{
@@ -644,12 +652,49 @@ h2 {
 
     /*Activities*/
 
- 
+   
+
   
 
     /*Sponsors*/
-    
+   .sh {
+     display: none;
+   }
 
+   .srectangle {
+     width: 50px;
+     height: 694px;
+      }
+
+   .spons1 {
+     display: grid;
+     grid-template-columns: 5% 45% 50%;
+     justify-items: start;
+    align-content: center;
+    padding-top: 2%;
+   }
+   .pics {
+     display: flex;
+    flex-direction: column;
+    max-width: 100%;
+
+   }
+    
+    .pics2 {
+      display: none;
+    }
+
+    #pics3mobile {
+      display: none;
+    }
+
+    .spons2 {
+    display: grid;
+     grid-template-columns: 45% 50% 5%;
+     justify-items: end;
+    align-content: center;
+    padding-bottom: 2%;
+    }
     
     
     /*About us*/
