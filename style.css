@@ -27,7 +27,7 @@ header {
 }
 nav {
   width: 100%;
-  box-shadow: var(--black);
+  box-shadow:  0px 0px 10px #000;
 }
 .clublogo {
   position: absolute;
@@ -36,28 +36,9 @@ nav {
 footer {
   background-color: var(--darkorange);
   display:flex;
-  flex-direction: column 1fr 1fr;
+  flex-direction: row;
   justify-content: space-between;
   margin: auto;
-}
-.ft{
-  padding-top: 5%;
-}
-.footer-items{
-  padding-top: 5%;
-}
-.icons{
-  padding-top: 20%;
-  justify-content: space-between;
-}
-#insta{
-  margin-right: 25px;
-}
-footer {
-  background-color: var(--darkorange);
-}
-.ft{
-  color: var(--white);
 }
 .footer-items{
   list-style: none;
@@ -66,7 +47,18 @@ footer {
   text-decoration: none;
   color:var(--white)
 }
-
+.icons{
+  padding-top: 20%;
+}
+#insta{
+  margin-right: 10px;
+}
+footer {
+  background-color: var(--darkorange);
+}
+.ft{
+  color: var(--white);
+}
 
 /*Main Page*/
 /*news*/
@@ -140,7 +132,7 @@ footer {
 .main_grid{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-row: auto auto;
+  grid-row: auto;
   grid-column-gap: 10px;
   grid-row-gap: 5px;
   padding-top: 50px;
@@ -193,11 +185,18 @@ h2 {
   margin-bottom: 8%;
   margin-left: 22%;
 }
-#teampic{
+#teampicmb{
   width: 100%;
   z-index: -1;
 }
-#game{
+#gamemb{
+  width: 100%;
+}
+#teampicwb{
+  width: 100%;
+  z-index: -1;
+}
+#gamewb{
   width: 100%;
 }
 
@@ -281,9 +280,6 @@ h2 {
       color: var(--black);
       margin: 30px;
     }
-    .navPC{
-      display:none;
-    }
     .container {
       max-width: 899px;
       width: 100%;
@@ -293,13 +289,11 @@ h2 {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      height: 62px;
+      height: 60px;
     }
-   
     nav .nav-container li {
       list-style: none;
     }
-      
     nav .nav-container a {
       text-decoration: none;
       color: var(--darkorange);
@@ -405,17 +399,6 @@ h2 {
     .nav-container input[type="checkbox"]:checked ~ .logo{
       z-index: 7;
     }
-    .ft{
-      color: var(--white);
-    }
-    .footer-items{
-      list-style: none;
-    }
-    .footer-items a{
-      text-decoration: none;
-      color:var(--white)
-    }
-
     /*Main Page*/
     /*video*/
     .intro{
@@ -766,7 +749,7 @@ h2 {
     .more_contacts{
       display: grid;
       grid-template-columns: 1fr 1fr;
-      grid-row: auto auto;
+      grid-row: auto;
       grid-column-gap: 15px;
       grid-row-gap: 15px;
       padding-top: 10px;
@@ -839,24 +822,29 @@ h2 {
     }
     /*Footer*/
     .ft{
-      padding-top: 1%;
+      margin: 0;
+      padding: 10px 0;
       font-size: 12px;
     }
+    
     .footer-items{
       padding-top: 5%;
       font-size: 12px;
       padding: 5%;
-      margin-left: 5%;
+      margin-left: 10%;
+    }
+    .footer-items li{
+     margin-bottom: 10px;
     }
     .address{
       padding: 5%;
-      margin-left: 10%;
+      margin-right: 10%;
     }
     .address .icons{
       float: right;
     }
     .address .icons img{
-      width: 20px;
+      width: 25px;
     }
 
 
@@ -897,17 +885,19 @@ h2 {
       display: none;
     }
     .navPC{
+      position: fixed;
       display: flex;
       flex-direction: row;
       align-content: center;
       height: 70px;
       justify-content: space-between;
+      background-color: var(--white);
     }
     .menu-items{
       display: flex;
       flex-direction: row;
       margin: auto 0;
-      padding-left: 16vw;
+      padding-left: 12vw;
     }
     .navPC .menu-items li{
       list-style: none;
@@ -918,14 +908,13 @@ h2 {
       text-decoration: none;
       color: var(--black);
       font-family: cresta, sans-serif;
-      font-weight: 300;
-      font-style: medium;
-      font-size: 18px;
+      font-size: 16px;
       padding-left: 2vw;
+      font-weight: 500;
     }
     .clublogo{
-      margin: 2vw 0 0 4vw;
-      width: 100px;
+      margin-left: 2vw;
+      width: 10vw;
     }
     
     .PCicons{
@@ -1029,7 +1018,7 @@ h2 {
       font-weight: bold;
       font-size: 28px;
       color: var(--white);
-      padding: 2%;
+      padding: 1%;
     }
     h2 {
       margin-left: 5%;
@@ -1039,6 +1028,7 @@ h2 {
     }
     .line {
       background-color: var(--darkorange);
+      padding-top: 70px;
     }
     .text {
       margin: 5%;
@@ -1408,7 +1398,7 @@ h2 {
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 0.2fr 1fr;
-      grid-row: auto auto;
+      grid-row: auto;
       grid-column-gap: 15px;
       grid-row-gap: 15px;
       padding-top: 70px;
@@ -1429,7 +1419,7 @@ h2 {
     .more_contacts{
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
-      grid-row: auto auto;
+      grid-row: auto;
       grid-column-gap: 15px;
       grid-row-gap: 15px;
       padding-top: 10px;
@@ -1585,36 +1575,31 @@ h2 {
       margin-top: 20px;
     }
     /*Footer*/
-    .footer-items{
-      margin: 3vh 0 8vh 25vw;
-    }
-    .footer-items li{
-      list-style: none;
-      text-decoration: none;
-      padding-bottom: 2vh;
-    }
-    .footer-items li a{
-      text-decoration: none;
-      color: #FFFFFF;
-    }
-    .address{
-      display: flex;
-      flex-direction: row;
-    }
-
-    .address p{
-      text-decoration: none;
-      color: #FFFFFF;
+    .ft{
+      margin: 0;
       font-size: 16px;
-      font-style: medium;
-      margin: 3vh 10vw 8vh 0;
-    }
-    .address .icons{
-      margin: 3vh 20vw 8vh 0vw;
-    }
-    .address .icons img{
-      height: 20px;
-      padding-right: 1vw;
+      font-weight: 500;
     }
     
+    .footer-items{
+      padding-top: 5%;
+      font-size: 12px;
+      padding: 5%;
+      margin-left: 20%;
+    }
+    .footer-items li{
+     margin-bottom: 10px;
+     font-size: 16px;
+    }
+    .address{
+      padding: 5%;
+      margin-right: 20%;
+    }
+    .address .icons{
+      float: right;
+      padding-top: 10%;
+    }
+    .address .icons img{
+      width: 30px;
+    }
   }
