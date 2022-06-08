@@ -642,19 +642,24 @@ h2 {
     /*Activities*/
     .actph {
       max-width: 100%;
-    }
-
+    } 
     .actphdesktop {
       display: none;
     }
     .activitiesgridup{
       display: none;
-    }
-
+    } 
     /*Sponsors*/
- 
+
     .navPC {
       display: none;
+    } 
+    /*Sponsors*/
+    .pics {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding-top: 3%;
     }
     /*Sponsors*/
     .pics {
@@ -831,6 +836,7 @@ h2 {
     
     .sponsors .sponlogo img{
       width: 15vw;
+     
     }
   /*overall styling*/
     h1 {
@@ -858,6 +864,10 @@ h2 {
       border: var(--white);
       border-radius: 20%;
     }
+
+
+    
+
   
 
 
@@ -971,10 +981,10 @@ h2 {
       flex-direction: column;
     }
 
-    .apdown {
-      display: flex;
-      flex-direction: column;
-    }
+  .apdown {
+    display: flex;
+    flex-direction: column;
+  }
 
 
 
