@@ -37,6 +37,32 @@ footer {
   justify-content: space-between;
   margin: auto;
 }
+.ft{
+  padding-top: 5%;
+}
+.footer-items{
+  padding-top: 5%;
+}
+.icons{
+  padding-top: 20%;
+  justify-content: space-between;
+}
+#insta{
+  margin-right: 25px;
+}
+footer {
+  background-color: var(--darkorange);
+}
+.ft{
+  color: var(--white);
+}
+.footer-items{
+  list-style: none;
+}
+.footer-items a{
+  text-decoration: none;
+  color:var(--white)
+}
 
 
 /*Main Page*/
@@ -102,7 +128,6 @@ h2 {
   margin-right: 37px;
   font-size: 28px;
   margin-top: 60px;
-
 }
 .line {
   background-color: var(--darkorange);
@@ -115,7 +140,6 @@ h2 {
   border: var(--white);
   border-radius: 20%;
 }
-
 #grey{
   margin-bottom: 8%;
   margin-left: 22%;
@@ -675,6 +699,7 @@ h2 {
     .pics3 {
       width: 50%; 
     }
+
 
     /*About us*/
     h1{
