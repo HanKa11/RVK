@@ -98,42 +98,28 @@ h1 {
   padding: 2%;
 }
 h2 {
-<<<<<<< HEAD
   margin-left: 37px;
   margin-right: 37px;
   font-size: 28px;
   margin-top: 60px;
-=======
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 60px;
-  font-size: 20px;
->>>>>>> activities
+
 }
 .line {
   background-color: var(--darkorange);
 }
-.text {
-<<<<<<< HEAD
+.texttt {
   margin: 37px;
   font-size: 14px;
-=======
-  margin: 10%;
-  font-size: 15px;
->>>>>>> activities
   font-family: cresta, sans-serif;
   font-weight: normal;
   border: var(--white);
   border-radius: 20%;
 }
-<<<<<<< HEAD
+
 #grey{
   margin-bottom: 8%;
   margin-left: 22%;
 }
-=======
-
->>>>>>> activities
 #teampic{
   width: 100%;
   z-index: -1;
@@ -163,18 +149,17 @@ h2 {
   }
 
 .pics3 {
-<<<<<<< HEAD
   max-width: 55%;
 }
-
-=======
-  max-width: 55%; }
-
-
-
-  @media screen and (max-width: 899px){
-    /*https://alvarotrigo.com/blog/hamburger-menu-css/ */
->>>>>>> activities
+/*Activities*/
+.text{
+  margin: 10%;
+  font-size: 15px;
+  font-family: cresta, sans-serif;
+  font-weight: normal;
+  border: var(--white);
+  border-radius: 20%;
+}
 
 
   @media screen and (max-width: 899px){
@@ -392,62 +377,62 @@ h2 {
 
   
 
-   /*Team Overview*/
-  .colorstripe{
-    background: #E26C08;
-    padding-bottom: 4%;
-    padding-top: 4%;
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    font-family: Cresta;
-      
-  }
-  .columns{
-    padding-top: 4%;
-    padding-left: 4%;
-    padding-right: 4%;
-    padding-bottom: 10%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-  .col1{
-    border-radius: 20px;
-    flex: 0 1 48%;
-    background: #EAEAEA;
-    font-family: KaiseiTokumin-Regular;
-  }
-  .col2{
-    border-radius: 20px;
-    flex: 0 1 48%;
-    background: #EAEAEA;
-    font-family: KaiseiTokumin-Regular;
-  }
-  .col1 img{
-    align-self: center;
-    width: 90%;
-    padding-left: 10%;
-    padding-top: 5%;
-  }
-  .col1 h3{
-    font-size: 11px;
-    padding-left: 10%;
-  }
-  .col2 img{
-    align-self: center;
-    width: 90%;
-    padding-left: 10%;
-    padding-top: 5%;
-  }
-  .col2 h3{
-    font-size: 13px;
-    padding-left: 10%;
-  }
-  .text{
-    font-size: 12px;
-    padding: 2% 10% 5%;
-  }
+     /*Team Overview*/
+    .colorstripe{
+      background: #E26C08;
+      padding-bottom: 4%;
+      padding-top: 4%;
+      text-align: center;
+      font-size: 30px;
+      color: white;
+      font-family: Cresta;
+
+    }
+    .columns{
+      padding-top: 4%;
+      padding-left: 4%;
+      padding-right: 4%;
+      padding-bottom: 10%;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .col1{
+      border-radius: 20px;
+      flex: 0 1 48%;
+      background: #EAEAEA;
+      font-family: KaiseiTokumin-Regular;
+    }
+    .col2{
+      border-radius: 20px;
+      flex: 0 1 48%;
+      background: #EAEAEA;
+      font-family: KaiseiTokumin-Regular;
+    }
+    .col1 img{
+      align-self: center;
+      width: 90%;
+      padding-left: 10%;
+      padding-top: 5%;
+    }
+    .col1 h3{
+      font-size: 11px;
+      padding-left: 10%;
+    }
+    .col2 img{
+      align-self: center;
+      width: 90%;
+      padding-left: 10%;
+      padding-top: 5%;
+    }
+    .col2 h3{
+      font-size: 13px;
+      padding-left: 10%;
+    }
+    .text{
+      font-size: 12px;
+      padding: 2% 10% 5%;
+    }
 
       /*Team Overview*/
     .tms{
@@ -655,10 +640,6 @@ h2 {
     /*Kontingentrates*/
 
     /*Activities*/
-
-<<<<<<< HEAD
-    
-=======
     .actph {
       max-width: 100%;
     }
@@ -675,22 +656,20 @@ h2 {
     .navPC {
       display: none;
     }
-
->>>>>>> activities
     /*Sponsors*/
-.pics {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding-top: 3%;
-}
-.pics2 {
-  max-width: 50%;
-  }
-
-.pics3 {
-  width: 50%; 
-}
+    .pics {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding-top: 3%;
+    }
+    .pics2 {
+      max-width: 50%;
+      }
+    
+    .pics3 {
+      width: 50%; 
+    }
 
     /*About us*/
     h1{
@@ -853,41 +832,32 @@ h2 {
     .sponsors .sponlogo img{
       width: 15vw;
     }
-<<<<<<< HEAD
-
-
-    
-=======
- 
-  
->>>>>>> activities
-
   /*overall styling*/
-  h1 {
-    text-align: center;
-    font-family: cresta, sans-serif;
-    font-weight: bold;
-    font-size: 28px;
-    color: var(--white);
-    padding: 2%;
-  }
-  h2 {
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 60px;
-    font-size: 26px;
-  }
-  .line {
-    background-color: var(--darkorange);
-  }
-  .text {
-    margin: 5%;
-    font-size: 16px;
-    font-family: cresta, sans-serif;
-    font-weight: normal;
-    border: var(--white);
-    border-radius: 20%;
-  }
+    h1 {
+      text-align: center;
+      font-family: cresta, sans-serif;
+      font-weight: bold;
+      font-size: 28px;
+      color: var(--white);
+      padding: 2%;
+    }
+    h2 {
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 60px;
+      font-size: 26px;
+    }
+    .line {
+      background-color: var(--darkorange);
+    }
+    .text {
+      margin: 5%;
+      font-size: 16px;
+      font-family: cresta, sans-serif;
+      font-weight: normal;
+      border: var(--white);
+      border-radius: 20%;
+    }
   
 
 
@@ -938,73 +908,73 @@ h2 {
     /*Kontingentrates*/
 
     /*Activities*/
-  .mmm{
-    display: none;
-  }
-
-  .activitiesgridup {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    padding-top: 50px;
- }
- #acttextl{
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 2;
- }
- #acttextr{
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 3;
- }
-
- #beachp {
-  grid-column-start: 4;
-  grid-column-end: 5;
-  grid-row-start: 1;
-  grid-row-end: 2;
- }
-  #weekp{
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 2;
-  grid-row-end: 3;
- }
- #manp{
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 2;
- }
-#domp{
-  grid-column-start: 4;
-  grid-column-end: 5;
-  grid-row-start: 2;
-  grid-row-end: 3;
+    .mmm{
+      display: none;
     }
-.bla{
-  background-color: var(--white);
-  z-index: 7;
-}
-  .actph {
-    display: none;
-  }
 
-  .actphdesktop {
-  width: 150%;
-  }
-  .apup{
-    display: flex;
-    flex-direction: column;
-  }
+    .activitiesgridup {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      padding-top: 50px;
+    }
+    #acttextl{
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
+    #acttextr{
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 2;
+      grid-row-end: 3;
+    }
 
-  .apdown {
-    display: flex;
-    flex-direction: column;
-  }
+    #beachp {
+      grid-column-start: 4;
+      grid-column-end: 5;
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
+    #weekp{
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 2;
+      grid-row-end: 3;
+    }
+    #manp{
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
+    #domp{
+      grid-column-start: 4;
+      grid-column-end: 5;
+      grid-row-start: 2;
+      grid-row-end: 3;
+    }
+    .bla{
+      background-color: var(--white);
+      z-index: 7;
+    }
+    .actph {
+      display: none;
+    }
+
+    .actphdesktop {
+    width: 150%;
+    }
+    .apup{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .apdown {
+      display: flex;
+      flex-direction: column;
+    }
 
 
 
@@ -1188,19 +1158,18 @@ h2 {
 
 
 
-    /*Sponsors*/
+  /*Sponsors*/
     
 
-      .pics3 {
-        display: flex;
-        flex-direction: column;
-      }
+    .pics3 {
+      display: flex;
+      flex-direction: column;
+    }
     /*About us*/
 
     /*Contact*/
 
     /*Footer*/
-<<<<<<< HEAD
     .footer-items{
       margin: 3vh 0 8vh 25vw;
     }
@@ -1234,10 +1203,3 @@ h2 {
     }
     
   }
-  
-  
-=======
-  
-  
-  }
->>>>>>> activities
