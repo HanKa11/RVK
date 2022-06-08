@@ -29,32 +29,7 @@ nav {
 .logo {
   position: absolute;
 }
-/*footer*/
-footer {
-  background-color: var(--darkorange);
-  display:flex;
-  flex-direction: column 1fr 1fr;
-  justify-content: space-between;
-  margin: auto;
-}
-.ft{
-  padding-top: 1%;
-  font-size: 12px;
-}
-.footer-items{
-  padding-top: 5%;
-  font-size: 12px;
-  padding: 5%;
-  margin-left: 5%;
-}
-.address{
-  padding: 5%;
-  margin-left: 10%;
-}
-#insta{
-  padding-left: 50%;
-  margin-top: 10%;
-}
+
 
 /*Main Page*/
 /*news*/
@@ -293,16 +268,7 @@ h2 {
     .nav-container input[type="checkbox"]:checked ~ .logo{
       z-index: 7;
     }
-    .ft{
-      color: var(--white);
-    }
-    .footer-items{
-      list-style: none;
-    }
-    .footer-items a{
-      text-decoration: none;
-      color:var(--white)
-    }
+
 
     /*Main Page*/
     /*video*/
@@ -458,9 +424,41 @@ h2 {
 
     /*Footer*/
   
+footer {
+  background-color: var(--darkorange);
+  display:flex;
+  flex-direction: column 1fr 1fr;
+  justify-content: space-between;
+  margin: auto;
+}
+.ft{
+  padding-top: 1%;
+  font-size: 12px;
+  color: var(--white);
+}
+.footer-items{
+  padding-top: 5%;
+  font-size: 12px;
+  padding: 5%;
+  margin-left: 5%;
+  list-style: none;
+}
+.address{
+  padding: 5%;
+  margin-left: 10%;
+}
+#insta{
+  padding-left: 50%;
+  margin-top: 10%;
+}
+
+.footer-items a{
+  text-decoration: none;
+  color:var(--white)
+}
 
   }
-  @media screen and (min-width: 900px){
+@media screen and (min-width: 900px){
     /* NAVIGATION */
     .mobile{
       display: none;
@@ -568,6 +566,7 @@ h2 {
     .sponsors .sponlogo img{
       width: 15vw;
     }
+<<<<<<< Updated upstream
  
   
 
@@ -600,6 +599,8 @@ h2 {
   
 
 
+=======
+>>>>>>> Stashed changes
     /*Team Overview*/
     .mainteam{
       display: flex;
@@ -730,6 +731,44 @@ h2 {
     /*Contact*/
 
     /*Footer*/
+<<<<<<< Updated upstream
   
   
   }
+=======
+footer {
+  background-color: var(--darkorange);
+  display:flex;
+  flex-direction: column 1fr 1fr 1fr;
+  justify-content: space-between;
+  margin: auto;
+}
+.ft{
+  padding-top: 1%;
+  font-size: 18px;
+  color: var(--white);
+}
+.footer-items{
+  padding-top: 5%;
+  font-size: 18px;
+  padding: 5%;
+  margin-left: 5%;
+  list-style: none;
+}
+.address{
+  padding: 5%;
+  margin-left: 10%;
+}
+#insta{
+  padding-left: 50%;
+  margin-top: 10%;
+}
+
+.footer-items a{
+  text-decoration: none;
+  color:var(--white)
+}
+
+  }
+  
+>>>>>>> Stashed changes
