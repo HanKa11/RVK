@@ -424,6 +424,9 @@ h2 {
     .actphdesktop {
       display: none;
     }
+    .activitiesgridup{
+      display: none;
+    }
 
     /*Sponsors*/
  
@@ -644,18 +647,63 @@ h2 {
     /*Kontingentrates*/
 
     /*Activities*/
+  .mmm{
+    display: none;
+  }
 
   .activitiesgridup {
     display: grid;
-    grid-template-columns: 20% 30% 30% 20%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-top: 50px;
+ }
+ #acttextl{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+ }
+ #acttextr{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
  }
 
+ #beachp {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+ }
+  #weekp{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+ }
+ #manp{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+ }
+#domp{
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+    }
+.bla{
+  background-color: var(--white);
+  z-index: 7;
+}
   .actph {
     display: none;
   }
 
   .actphdesktop {
- max-width: 100%;
+  width: 150%;
   }
   .apup{
     display: flex;
@@ -667,10 +715,6 @@ h2 {
     flex-direction: column;
   }
 
-  .acttextl {
-    grid-column-start: 3;
-    grid-column-end: 4;
-  }
 
 
 
