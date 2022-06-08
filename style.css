@@ -611,14 +611,14 @@ h2 {
     button {
       border: 5px solid #000000;
       border-radius: 35px;
-      margin: 0;
       padding: 8px 14px;
-      margin-top: 2rem;
-      margin-bottom: 8rem;
-      margin-left: 13rem;
       font-weight: bold;
       font-size: 1.2rem;
-      background-color: #FFFFFF;;
+      background-color: #FFFFFF;
+      display: block;
+      width: 30%;
+      margin: 25vh auto;
+      margin-top: 25px;
     }
     .box-ramasjang {
       background-color: #EAEAEA;
@@ -638,6 +638,18 @@ h2 {
     }
     .trainingh {
       font-size: 35px;
+    }
+    .olineweb {
+      display: none;
+    }
+    .kidsvolley2-web {
+      display: none;
+    }
+    .oline-web {
+      display: none;
+    }
+    .trainingh-web {
+      display: none;
     }
 
     /*Kontingentrates*/
@@ -993,6 +1005,185 @@ h2 {
     display: flex;
     flex-direction: column;
   }
+
+
+
+    /*Ramsjang*/
+    .part1 {
+      display: grid;
+      grid-template-columns: 0.2fr 2fr 3fr;
+      margin-top: 15vh;
+      margin-bottom: 10vh;
+    }
+    .oline {
+      display: none;
+    }
+    .olineweb {
+      height: 70%;
+    }
+    .part1-text {
+      padding: 40px 60px 40px;
+    }
+    .kidvolley {
+      width: 100%;
+      margin-top: -50px;
+    }
+    .h2r {
+      margin-bottom: 20px;
+    }
+    .kidsvolley2 {
+      display: none;
+    }
+    .part2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      
+    }
+    .kidsvolley2-web {
+      height: 100%;
+      grid-row-start: 1;
+      grid-row-end: 3;
+      grid-column-start: 1;
+      grid-column-end: 2;
+    }
+    .text3{
+      grid-row-start: 1;
+      grid-row-end: 2;
+      grid-column-start: 2;
+      grid-column-end: 3;
+      padding: 5%
+    }
+
+    .text4{
+      grid-row-start: 2;
+      grid-row-end: 3;
+      grid-column-start: 2;
+      grid-column-end: 3;
+      padding: 5%
+    }
+    .textr3 {
+      margin: 20px 20px;
+    }
+    .textr3 h2 {
+      margin-left: 5px;
+      margin-bottom: 15px;
+    }
+    .textr4 {
+      margin: 20px 20px;
+    }
+    .textr4 h2 {
+      margin-left: 5px;
+      margin-bottom: 15px;
+    }
+    .oline-web {
+      display: none;
+    }
+    .contactpic1 {
+      width: 25%;
+      margin-left: 60vh;
+    }
+    .coaches1 {
+      display: grid;
+      grid-template-columns: 3fr 3fr;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-right: -20vh;
+    }
+    .contactpic2 {
+      width: 25%;
+      margin-left: 60vh; 
+    }
+    .coaches2 {
+      display: grid;
+      grid-template-columns: 3fr 3fr;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-right: -20vh;
+    }
+    .icons1 {
+      margin-top: 20px;
+    }
+    .icons2 {
+      margin-top: 20px;
+    }
+    .phone1 {
+      width: 25px;
+      margin-right: 10px;
+    }
+    .phone2 {
+      width: 25px;
+      margin-right: 10px;
+    }
+    .mail1 {
+      width: 25px;
+      margin-right: 10px;
+      margin-top: 10px;
+    }
+    .mail2 {
+      width: 25px;
+      margin-right: 10px;
+      margin-top: 10px;
+    }
+    .coaches11 {
+      margin-top: 40px;
+    }
+    .coaches22 {
+      margin-top: 40px;
+    }
+    .trainingh {
+      margin-top: 80px;
+      text-align: center;
+    }
+    button {
+      border: 5px solid #000000;
+      border-radius: 35px;
+      padding: 8px 14px;
+      font-weight: bold;
+      font-size: 1.2rem;
+      background-color: #FFFFFF;
+      display: block;
+      width: 30%;
+      margin: 25vh auto;
+      margin-top: 25px;
+      margin-left: -30vh;
+    }
+    .box-ramasjang {
+      background-color: #EAEAEA;
+      padding: 8vw 2vw;
+      margin: 4vw 16vw;
+      border-radius: 20px;
+      margin-left: 35px;
+      margin-right: 55vh;
+
+    }
+    .box-ramasjang h3 {
+      color: #E26C08;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+    .box-ramasjang p {
+      text-align: center;
+      font-size: 20px;
+    }
+    .part3 {
+      display: grid;
+    }
+    .trainingh {
+      display: none;
+    }
+    .part3 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin-top: 10vh;
+    }
+    .part3-content {
+      display: grid;
+      grid-template-columns: 12fr 5fr;
+      grid-column-start: 2;
+    }
+
+
 
 
 
