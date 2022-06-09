@@ -21,7 +21,11 @@ body {
 .line {
   background-color: var(--darkorange);
 }
-/*header*/
+
+/*html and css of mobile navigation based on a tutorial from Online Tutorials 
+        * tutorial here:
+        *  https://alvarotrigo.com/blog/hamburger-menu-css
+          30.5. 2022*/
 header {
   background-color: var(--white);
 }
@@ -204,9 +208,10 @@ h2 {
 .tms{
   display: flex;
 }
-.tms div{
+.tms a{
   background-color: var(--darkgrey);
   border-radius: 2vh;
+  text-decoration: none;
 }
 /*Kontingentsatser*/
 .mainfees{
@@ -242,7 +247,10 @@ h2 {
   border: var(--white);
   border-radius: 20%;
 }
-/*popup*/
+/*java script pop up formular based on a tutorial from Online Tutorials 
+        * tutorial here:
+        * https://www.youtube.com/watch?v=bGNeZ6P3nqU
+          5.6. 2022*/
 #popup {
   visibility: hidden;
 }
@@ -274,7 +282,10 @@ h2 {
 
 
   @media screen and (max-width: 899px){
-    /* https://alvarotrigo.com/blog/hamburger-menu-css/ */
+    /*html and css of mobile navigation based on a tutorial from Online Tutorials 
+        * tutorial here:
+        *  https://alvarotrigo.com/blog/hamburger-menu-css
+          30.5. 2022*/
     .navPC {
       display: none;
     } 
@@ -500,7 +511,7 @@ h2 {
       margin:  5vh 17vw;
 
     }
-    .tms div{
+    .tms a{
       width: 48%;
       margin-bottom: 2vh;
       
@@ -875,6 +886,10 @@ h2 {
     .address .icons img{
       width: 25px;
     }
+    /* java script pop up formular based on a tutorial from Online Tutorials 
+        * tutorial here:
+        * https://www.youtube.com/watch?v=bGNeZ6P3nqU
+          5.6. 2022*/
     /*popup*/
     .rectangle {
       display: none;
@@ -938,8 +953,11 @@ h2 {
 
   }
   @media screen and (min-width: 900px){
-    /* NAVIGATION */
     h1{
+      /*html and css of mobile navigation based on a tutorial from Online Tutorials 
+        * tutorial here:
+        *  https://alvarotrigo.com/blog/hamburger-menu-css
+          30.5. 2022*/
       font-family: cresta, sans-serif;
       font-weight: 700;
       font-style: normal;
@@ -1145,7 +1163,7 @@ h2 {
       margin:  5vh 5vw;
 
     }
-    .tms div{
+    .tms a{
       width: 30%;
       margin-bottom: 2vh;
       
@@ -1690,7 +1708,10 @@ h2 {
     .address .icons img{
       width: 30px;
     }
-    /*popup*/
+    /* java script pop up formular based on a tutorial from Online Tutorials 
+        * tutorial here:
+        * https://www.youtube.com/watch?v=bGNeZ6P3nqU
+          5.6. 2022*/
     .all {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
@@ -1800,5 +1821,5 @@ h2 {
     }
     .closeimg {
       height: 40px;
-   } 
+  } 
 }
